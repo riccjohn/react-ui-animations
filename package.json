@@ -5,8 +5,10 @@
   "dependencies": {
     "animejs": "^2.2.0",
     "jss": "^9.8.7",
+    "jss-preset-default": "^4.5.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-jss": "^8.6.1",
     "react-scripts": "1.1.5"
   },
   "scripts": {

@@ -1,13 +1,5 @@
 import anime from 'animejs';
 
-export const submitHover = () => {
-  anime({
-    targets: '.submit',
-    duration: 200,
-    scale: 1.05,
-  });
-};
-
 export const submitAnim = () => {
   const target = '.submit';
   const duration = 250;
@@ -17,7 +9,6 @@ export const submitAnim = () => {
     targets: target,
     scale: 0.9,
     duration,
-    // direction: 'alternate',
     easing: easing,
   });
   anime({
