@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import AnimeTest from './components/AnimeTest.js';
+import { AnimeTest, SubmitButton } from './components';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <AnimeTest />
+        {/* <AnimeTest /> */}
+        <SubmitButton />
       </div>
     );
   }
