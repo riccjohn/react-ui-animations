@@ -13,7 +13,7 @@ A library of animated UI React elements built with Julian Garnier's [Anim.js](ht
 
 ## Toggle
 
-<img src="https://github.com/riccjohn/animate-ui/blob/master/documentation/assets/img/Toggle.gif?raw=true" width='100%' />
+<img src="https://github.com/riccjohn/animate-ui/blob/master/documentation/assets/img/Toggle.gif?raw=true"/>
 
 ```js
 import { Toggle } from 'animate-ui';
@@ -21,7 +21,7 @@ import { Toggle } from 'animate-ui';
 
 ## Hamburger
 
-<img src="https://github.com/riccjohn/animate-ui/blob/master/documentation/assets/img/Hamburger.gif?raw=true" width='100%' />
+<img src="https://github.com/riccjohn/animate-ui/blob/master/documentation/assets/img/Hamburger.gif?raw=true" />
 
 ```js
 import { Hamburger } from 'animate-ui';
