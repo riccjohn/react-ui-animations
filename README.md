@@ -10,7 +10,6 @@ A library of animated UI React elements built with Julian Garnier's [Anim.js](ht
 - [Dot Loader](#dotLoader)
 - [Circle Loader](#circleLoader)
 - [Placeholder Card](#placeholderCard)
-- [TEST](#test)
 
 ## Toggle
 
