@@ -17,9 +17,15 @@ const styles = {
 
 const SubmitButton = ({ classes }) => {
   return (
-    <button className={classes.button + ' submit'} onClick={submitAnim}>
-      Submit
-    </button>
+    <input
+      type="button"
+      id="button"
+      className={classes.button + ' submit'}
+      value="Submit"
+      onClick={submitAnim}
+    >
+      {/* */}
+    </input>
   );
 };
 

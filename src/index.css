@@ -33,6 +33,10 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.innerShadow {
+  box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
 .section {
   width: 85%;
   margin: 2rem;

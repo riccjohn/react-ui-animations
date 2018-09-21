@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import {
-  AnimeTest,
+  Toggle,
   SubmitButton,
   HamburgerTest,
   Hamburger,
@@ -17,7 +17,7 @@ class App extends Component {
         <div className="main-container flex column center-all">
           <div className="section flex column center-all">
             <h1>Toggle Switch</h1>
-            <AnimeTest />
+            <Toggle />
           </div>
           <div className="section flex column center-all">
             <h1>Hamburger</h1>

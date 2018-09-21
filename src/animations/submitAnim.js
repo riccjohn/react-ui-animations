@@ -18,4 +18,7 @@ export const submitAnim = () => {
     backgroundColor: '#29ed98',
     easing: easing,
   });
+
+  const elem = document.getElementById('button');
+  if (elem.value == 'Submit') elem.value = 'Sent!';
 };

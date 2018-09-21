@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import anime from 'animejs';
 
-class AnimeTest extends Component {
+class Toggle extends Component {
   constructor() {
     super();
     this.state = {
@@ -12,10 +12,16 @@ class AnimeTest extends Component {
   slide() {
     anime({
       targets: '.slider',
-      duration: 250,
+      duration: 500,
       translateX: this.state.on ? 0 : 47,
       easing: [0.4, 0.1, 0.6, 0.9],
       elasticity: 0,
+    });
+
+    anime({
+      targets: '.switch',
+      duration: 250,
+      backgroundColor: this.state.on ? '#f2f2f2' : '#00ffb4',
     });
 
     this.setState({
@@ -29,7 +35,7 @@ class AnimeTest extends Component {
     return (
       <div className="main-container flex column center-all">
         {this.state.on ? <h1>ON</h1> : <h1>OFF</h1>}
-        <div className="switch flex" onClick={this.slide}>
+        <div className="switch innerShadow flex" onClick={this.slide}>
           <div className="slider" />
         </div>
       </div>
@@ -37,4 +43,4 @@ class AnimeTest extends Component {
   }
 }
 
-export default AnimeTest;
+export default Toggle;

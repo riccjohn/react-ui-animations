@@ -1,4 +1,4 @@
-export { default as AnimeTest } from './AnimeTest';
+export { default as Toggle } from './Toggle';
 export { default as SubmitButton } from './SubmitButton';
 export { default as Hamburger } from './Hamburger';
 export { default as HamburgerTest } from './HamburgerTest';
