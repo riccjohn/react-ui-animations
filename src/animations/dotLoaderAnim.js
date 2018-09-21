@@ -1,8 +1,8 @@
 import anime from 'animejs';
 
-const loaderAnim = anime.timeline();
+const dotLoaderAnim = anime.timeline();
 
-loaderAnim
+dotLoaderAnim
   .add({
     targets: '.ball1',
     translateX: 250,
@@ -21,4 +21,4 @@ loaderAnim
     offset: '-=800', // Starts 800ms before the previous animation ends
   });
 
-export default loaderAnim;
+export default dotLoaderAnim;

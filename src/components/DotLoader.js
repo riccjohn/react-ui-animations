@@ -11,8 +11,13 @@ const styles = {
     height: diameter,
     borderRadius: 20,
     display: 'inline-block',
+    position: 'relative',
+    left: -125,
     margin: 5,
     boxShadow: { x: 0, y: 0, blur: 8, color: 'rgba(0, 0, 0, 0.2)' },
+  },
+  loader: {
+    display: 'block',
   },
 };
 
@@ -29,7 +34,7 @@ class LoaderAnim extends React.Component {
     });
     offset
       .add({
-        targets: '.ball1',
+        targets: '.ball:nth-of-type(1)',
         translateX: [
           {
             value: end,
@@ -50,7 +55,7 @@ class LoaderAnim extends React.Component {
         offset: 0,
       })
       .add({
-        targets: '.ball2',
+        targets: '.ball:nth-of-type(2)',
         translateX: [
           {
             value: end,
@@ -71,7 +76,7 @@ class LoaderAnim extends React.Component {
         offset: 50,
       })
       .add({
-        targets: '.ball3',
+        targets: '.ball:nth-of-type(3)',
         translateX: [
           {
             value: end,
@@ -96,19 +101,13 @@ class LoaderAnim extends React.Component {
   render() {
     const { classes } = this.props;
     return (
-      <div className="loader">
-        <div className={classes.circle + ' ball1'} />
-        <div className={classes.circle + ' ball2'} />
-        <div className={classes.circle + ' ball3'} />
+      <div className={classes.loader + ' dotLoader'}>
+        <div className={classes.circle + ' ball'} />
+        <div className={classes.circle + ' ball'} />
+        <div className={classes.circle + ' ball'} />
       </div>
     );
   }
 }
 
 export default injectSheet(styles)(LoaderAnim);
-
-// .add({
-//   targets: '.loader',
-//   rotate: 180,
-//   duration: 2000,
-// })

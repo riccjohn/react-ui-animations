@@ -29,13 +29,7 @@ body {
   align-items: center;
 }
 
-.main-container {
-  width: 100vw;
-  height: 100vh;
-}
-
 .switch {
-  /* box-sizing: border-box; */
   width: 65px;
   height: 20px;
   border-radius: 12px;
@@ -46,7 +40,6 @@ body {
 }
 
 .slider {
-  /* box-sizing: border-box; */
   background-color: #262626;
   width: 18px;
   height: 18px;
@@ -73,4 +66,139 @@ body {
 .hamburgerIcon {
   float: right;
   margin: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  display: block;
+}
+
+.dotLoader {
+  position: relative;
+  left: 75px;
+  margin: 0;
+}
+
+.ball:nth-of-type(1) {
+  background-color: #ff4e40;
+}
+
+.ball:nth-of-type(2) {
+  background-color: #00ffb4;
+}
+
+.ball:nth-of-type(3) {
+  background-color: #149ecc;
+}
+
+.circleLoader {
+  height: 175px;
+  width: 175px;
+}
+.circle {
+  /* display: block; */
+  position: absolute;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  mix-blend-mode: soft-light;
+  box-sizing: border-box;
+  opacity: 0.5;
+}
+
+.circle:nth-of-type(1) {
+  border: 10px solid #00d0ff;
+  box-shadow: 0 0px 8px 0 #00d0ff, inset 0 0px 8px 0 #00d0ff;
+}
+
+.circle:nth-of-type(2) {
+  border: 10px solid #d82dff;
+  box-shadow: 0 0px 8px 0 #d82dff, inset 0 0px 4px 0 #d82dff;
+  /* top: -150px; */
+  /* margin-bottom: -150px; */
+}
+
+.circle:nth-of-type(3) {
+  border: 10px solid #fc8116;
+  box-shadow: 0 0px 8px 0 #fc8116, inset 0 0px 8px 0 #fc8116;
+  /* top: -300px; */
+  /* margin-bottom: -300px; */
+}
+
+.circle:nth-of-type(4) {
+  border: 10px solid #fff726;
+  box-shadow: 0 0px 8px 0 #fff726, inset 0 0px 8px 0 #fff726;
+  /* top: -450px; */
+  /* margin-bottom: -450px; */
+}
+
+/* PLACEHOLDER */
+.placeholder-card {
+  width: 500px;
+  height: 200px;
+  padding: 0.8rem;
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.grey {
+  background-color: #e8e8e8;
+}
+
+.content-area {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* background-color: tomato; */
+}
+
+.profilePhoto {
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+  position: relative;
+  left: -500px;
+}
+
+.header .line:nth-of-type(1) {
+  margin-top: 0;
+}
+
+.line {
+  height: 12px;
+  margin: 4px 6px;
+  position: relative;
+  left: -500px;
+}
+
+.placeholderBody {
+  margin-top: 10px;
+}
+
+.placeholderBody > .line {
+  margin-left: 0;
+}
+
+.size6 {
+  width: 375px;
+}
+
+.size4 {
+  width: 300px;
+}
+
+.size3 {
+  width: 250px;
+}
+
+.size2 {
+  width: 220px;
+}
+
+.indent {
+  left: -490px;
+  margin-top: 12px;
 }
