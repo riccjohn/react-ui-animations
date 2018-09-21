@@ -5,11 +5,12 @@ A library of animated UI React elements built with Julian Garnier's [Anim.js](ht
 ### Components
 
 - [Toggle](#toggle)
-- Hamburger
-- Submit Button
-- Dot Loader
-- Circle Loader
-- Placeholder Card
+- [Hamburger](#hamburger)
+- [Submit Button](#submit)
+- [Dot Loader](#dotLoader)
+- [Circle Loader](#circleLoader)
+- [Placeholder Card](#placeholderCard)
+- [TEST](#test)
 
 ## Toggle
 
