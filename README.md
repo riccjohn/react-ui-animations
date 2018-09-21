@@ -2,11 +2,27 @@
 
 A library of animated UI React elements built with Julian Garnier's [Anim.js](https://github.com/juliangarnier/anime).
 
-## Components
+### Components
 
-- Toggle
+- [Toggle](#toggle)
 - Hamburger
 - Submit Button
 - Dot Loader
 - Circle Loader
 - Placeholder Card
+
+## Toggle
+
+<img src="https://github.com/riccjohn/animate-ui/blob/master/documentation/assets/img/Toggle.gif?raw=true" width='100%' />
+
+```js
+import { Toggle } from 'animate-ui';
+```
+
+## Hamburger
+
+<img src="https://github.com/riccjohn/animate-ui/blob/master/documentation/assets/img/Hamburger.gif?raw=true" width='100%' />
+
+```js
+import { Hamburger } from 'animate-ui';
+```
