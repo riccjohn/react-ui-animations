@@ -21,7 +21,7 @@ import { Toggle } from 'animate-ui';
 
 ## Hamburger
 
-<img src="./documentation/assets/img/Hamburger.gif" />
+<img src="./documentation/assets/img/hamburger.gif" />
 
 ```js
 import { Hamburger } from 'animate-ui';
