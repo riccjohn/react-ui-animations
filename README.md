@@ -16,7 +16,7 @@ A library of animated UI React elements built with Julian Garnier's [Anim.js](ht
 <img src='documentation/assets/img/toggle.gif' />
 
 ```js
-import { Toggle } from 'animate-ui';
+import { Toggle } from 'react-ui-animations';
 ```
 
 ## Hamburger
@@ -24,7 +24,7 @@ import { Toggle } from 'animate-ui';
 <img src="documentation/assets/img/hamburger.gif" />
 
 ```js
-import { Hamburger } from 'animate-ui';
+import { Hamburger } from 'react-ui-animations';
 ```
 
 ## Submit Button
@@ -32,7 +32,7 @@ import { Hamburger } from 'animate-ui';
 <img src="documentation/assets/img/submit.gif" />
 
 ```js
-import { SubmitButton } from 'animate-ui';
+import { SubmitButton } from 'react-ui-animations';
 ```
 
 ## Dot Loader
@@ -40,7 +40,7 @@ import { SubmitButton } from 'animate-ui';
 <img src="documentation/assets/img/dotLoader.gif" />
 
 ```js
-import { DotLoader } from 'animate-ui';
+import { DotLoader } from 'react-ui-animations';
 ```
 
 ## Circle Loader
@@ -48,7 +48,7 @@ import { DotLoader } from 'animate-ui';
 <img src="documentation/assets/img/circleLoader.gif" />
 
 ```js
-import { CircleLoader } from 'animate-ui';
+import { CircleLoader } from 'react-ui-animations';
 ```
 
 ## Placeholder Card
@@ -56,5 +56,5 @@ import { CircleLoader } from 'animate-ui';
 <img src="documentation/assets/img/placeholder.gif" />
 
 ```js
-import { Placeholder } from 'animate-ui';
+import { Placeholder } from 'react-ui-animations';
 ```
