@@ -1,6 +1,6 @@
 {
   "name": "react-ui-animations",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A library of react module UI animations built with anime.js",
   "author": "John Riccardi <riccjohn@gmail.com> (http://www.jriccardi.com)",
   "main": "src/components/index.js",
