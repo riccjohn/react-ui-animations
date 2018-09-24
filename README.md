@@ -22,6 +22,7 @@ import { Toggle } from 'react-ui-animations';
 ## Hamburger
 
 <img src="https://github.com/riccjohn/react-ui-animations/blob/master/documentation/assets/img/hamburger.gif?raw=true" />
+
 ```js
 import { Hamburger } from 'react-ui-animations';
 ```
